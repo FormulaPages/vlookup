@@ -1,6 +1,6 @@
 #+TITLE: formula-vlookup
 
-#+BEGIN_SRC js :tangle LOOKUP.es6
+#+BEGIN_SRC js :tangle VLOOKUP.es6
   import ISERROR from 'formula-iserror';
   import ISBLANK from 'formula-isblank';
   import error from 'formula-errors';
@@ -26,6 +26,8 @@
 
   }                 
 #+END_SRC
+
+#+RESULTS:
 
 #+BEGIN_SRC sh :exports none
   babel VLOOKUP.es6 -m umd --out-file index.js
