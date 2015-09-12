@@ -1,0 +1,25 @@
+{
+  "name": "formula-vlookup",
+  "version": "1.0.0",
+  "description": "VLOOKUP function",
+  "main": "index.js",
+  "dependencies": {
+    "formula-isblank": "^1.0.0",
+    "formula-errors": "^1.0.0",
+    "formula-iserror": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FormulaPages/vlookup.git"
+  },
+  "author": "Peter Moresi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FormulaPages/vlookup/issues"
+  },
+  "homepage": "https://github.com/FormulaPages/vlookup#readme"
+}
